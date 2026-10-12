@@ -3,6 +3,8 @@
 //  Erzeugt ein achsenorientiertes Punktgitter (für das 9×9-Respo-
 //  Mesh) und liefert lesbare Achsen-Koordinaten. Reale Geometrie,
 //  keine erfundene "Physik".
+//  STATION v81 / BEST-SCORE-SYSTEM / ram.sys — 3er bis 9er
+//  Regel 9 — Raum immer 9 — 9 = sqrt(81) — wurzeln zu 3
 // ================================================================
 import { Vec3 } from './vec.js';
 
