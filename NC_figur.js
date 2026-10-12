@@ -3,6 +3,7 @@
 //  Erzeugt die geometrischen Grundformen, die im Projekt vorkommen:
 //  die 3 Screen-Positionen bei 0°/120°/240°, und optional eine
 //  Diamant-Punktwolke. Reine, nachvollziehbare Geometrie.
+//  STATION v81 / BEST / ram.sys / 6e 6d Mono Eye / Regel 9 / W(a(s(d(himmeldeutung))))
 // ================================================================
 import { Vec3 } from './vec.js';
 
