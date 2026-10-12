@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iki1uc — STATION v81 — BRAIN / MAINBOARD</title>
+<style>
+  body{font-family:Calibri,system-ui;background:#0a0a0a;color:#e8e8e8;margin:0;padding:24px;line-height:1.5}
+  h1{font-size:22px;margin:0 0 8px} h2{font-size:16px;margin:24px 0 8px;color:#9ee}
+  a{color:#7dd;text-decoration:none} a:hover{text-decoration:underline}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+  .card{border:1px solid #222;padding:12px;border-radius:10px;background:#111}
+  .label{font-weight:700;letter-spacing:0.04em} .desc{font-size:13px;color:#aaa;margin:4px 0}
+  .meta{font-size:11px;color:#666} .null{color:#555}
+  code{font-size:12px;background:#1a1a1a;padding:2px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+<h1>iki1uc — STATION v81 — 81◆ MODE:CACHE — 9.ORT — BEST-SCORE-SYSTEM</h1>
+<div class="meta">ROOT = BRAIN-Startzustand — CORE = Kernel Axiom Vec NC-Suite — HDF = ROM-Speicher d/e/i/n/o/r/s/u/w — STAGE = BOERSE DOM EOS EVO MARKT RESPO TOOL48 — AXIS = BREITE TIEFE HOCH — Regel 9 = Raum immer 9 = sqrt(81) → 3 = Drache Mann — 6e 6d aber nur 1e schaut Mono Eye — W(a(s(d(himmeldeutung))))</div>
+
+<h2>BRAIN — Gruppe 1 NC-Suite — Zeit Raum Kraft Figur — OS_CORE — ghost reference only</h2>
+<div class="grid">
+  <div class="card"><div class="label">ROOT</div><div class="desc">BRAIN-Startzustand — kernel unlinked ready — kein Raum, nur errechnet</div><code>axiom.map.js root file:null</code></div>
+  <div class="card"><div class="label">CORE — OS_CORE.js</div><div class="desc">Kernel — hält gemeinsame Uhr Clock + zentralen state — simples Singleton — eine Instanz für ganze Seite</div><a href="./OS_CORE.js">OS_CORE.js</a> + <a href="./NC_time.js">NC_time.js</a></div>
+  <div class="card"><div class="label">NC_time.js — Zeitlogik</div><div class="desc">Echte Uhr Render-Loop — delta elapsed — tick() seconds deltaSec pause() resume() reset() inRutchWindow(0.35) — Waanis Schale springt 35%</div><a href="./NC_time.js">NC_time.js</a></div>
+  <div class="card"><div class="label">NC_space.js — Raumlogik</div><div class="desc">Punktgitter 9×9-Respo-Mesh 81 Slots — gridPoints(9,9) respoMesh() bestMatrix() axisLabel() — reale Geometrie — Regel 9</div><a href="./NC_space.js">NC_space.js</a></div>
+  <div class="card"><div class="label">NC_kraft.js — Kraftlogik</div><div class="desc">Feder Dämpfung Begrenzung — springForce damp clamp — Slots weich statt sprunghaft — anti-reib 95-150 — echte Mathematik</div><a href="./NC_kraft.js">NC_kraft.js</a></div>
+  <div class="card"><div class="label">NC_figur.js — Figurlogik</div><div class="desc">3 Screens 0°/120°/240° triangleScreenPositions radius 150 + Diamant 6-Punkt-Bipyramide diamondPoints = Octaeder = OCTACORE-BEST</div><a href="./NC_figur.js">NC_figur.js</a></div>
+  <div class="card"><div class="label">HDF — ROM-Speicher</div><div class="desc">d/e/i/n/o/r/s/u/w — ROM — 970 PRO MLC Qualitäts Linie — 32GB 4000 — 729 Raum über 40GB</div><code>axiom.map.js hdf file:null</code></div>
+  <div class="card"><div class="label">VEC — vec.js VEC-OS.js VEC-bios.js VEC-blitz.js</div><div class="desc">Vec3 + humanistischeDeutung + blitzTechnik + dimension settings — VEC-OS — aximische 6 Nutzung nicht goldene 6</div><a href="./vec.js">vec.js</a> <a href="./VEC-OS.js">VEC-OS.js</a> <a href="./VEC-bios.js">VEC-bios.js</a> <a href="./VEC-blitz.js">VEC-blitz.js</a></div>
+</div>
+
+<h2>STAGE — MAINBOARD — 9.ORT — 81◆ — eine Ebene über BRAIN — BOERSE DOM EOS EVO MARKT RESPO TOOL48 — alle GROSS — case einheitlich</h2>
+<div class="grid">
+  <div class="card"><div class="label">BOERSE</div><div class="desc">Börsen-Daten-Stage</div><a href="../BOERSE/index.html">../BOERSE/index.html</a></div>
+  <div class="card"><div class="label">DOM</div><div class="desc">Dom-Struktur / NC-Raum</div><a href="../DOM/index.html">../DOM/index.html</a></div>
+  <div class="card"><div class="label">EOS</div><div class="desc">EOS-Modul</div><a href="../EOS/index.html">../EOS/index.html</a></div>
+  <div class="card"><div class="label">EVO</div><div class="desc">Evolution / Axiom-Map — evo upd upg rev evo — letzte Epoche jetzige Unterschiede verpunktbar in W(a(s(d())))</div><a href="../EVO/index.html">../EVO/index.html</a></div>
+  <div class="card"><div class="label">MARKT</div><div class="desc">Marktsystem — CBL Compute Barter Lizenzmodell — BGH konform Hamburg Standard</div><a href="../MARKT/index.html">../MARKT/index.html</a></div>
+  <div class="card"><div class="label">RESPO — 9×9-Respo-Mesh 81 Slots</div><div class="desc">BEST?MATRIX — BEST-Kreuz-Matrix — ram.sys 81◆ — respoMesh 9×9 — BEST?MATRIX — gridPoints</div><a href="../RESPO/index.html">../RESPO/index.html</a> <a href="./respo.js">respo.js</a></div>
+  <div class="card"><div class="label">TOOL48 — Werkzeug 48</div><div class="desc">BEST?AXIS — 6 Arme Würfel 95-150 anti-reib — 6e 6d Mono Eye — 6 Nutzung aber nur 1e schauen</div><a href="../TOOL48/index.html">../TOOL48/index.html</a></div>
+</div>
+
+<h2>AXIS — Achsen — BREITE TIEFE HOCH — X Z Y — ghost</h2>
+<div class="grid">
+  <div class="card"><div class="label">BREITE — X — BEST?AXIS</div><div class="desc">Achse Breite (X)</div><code>axiom.map.js breite file:null</code> <a href="./coord.js">coord.js</a></div>
+  <div class="card"><div class="label">TIEFE — Z — BEST?LAGE</div><div class="desc">Achse Tiefe (Z)</div><code>axiom.map.js tiefe file:null</code></div>
+  <div class="card"><div class="label">HOCH — Y — BEST?TMP</div><div class="desc">Achse Höhe (Y)</div><code>axiom.map.js hoch file:null</code></div>
+  <div class="card"><div class="label">dreieck.js — golden 9 states locked</div><div class="desc">Dreieck 3 Positionen 0°/120°/240° — golden 9 — Regel 9 — Raum immer 9 — 3 = Drache Mann</div><a href="./dreieck.js">dreieck.js</a> <a href="./cube.txt">cube.txt</a></div>
+</div>
+
+<h2>DOCS — AGB + Weisheiten — CBL + Goldschnitt + MYTH</h2>
+<div class="grid">
+  <div class="card"><div class="label">axiom.map.js — Gruppe 7 bereinigt</div><div class="desc">Module-Karte — Reine Datentabelle — Router stage/router.js liest Status-Texte + Zieldateien — alle GROSS — keine Störung</div><a href="./axiom.map.js">axiom.map.js</a> <a href="./router.js">router.js</a> <a href="./resolver.js">resolver.js</a></div>
+  <div class="card"><div class="label">CBL — Compute Barter Lizenzmodell</div><div class="desc">AGB fertig — BGH konform Hamburg Standard — nur Kunden mit eigener Hardware 12 Monate SLA — sonst Vorauszahlung/Hybrid 50/50</div><a href="./agp.rtf">agp.rtf</a> <a href="./toolomatv2.rtf">toolomatv2.rtf</a></div>
+  <div class="card"><div class="label">goldschnitt.rtf — goldene 6 vs aximische 6</div><div class="desc">Goldene 6 = 1.618 Goldschnitt — aximische 6 = 6 = 2×3 Axiome — nicht golden — halten wir auch im Auge nur ein Auge Mono Eye — 6e aber nur 1e schauen</div><a href="./goldschnitt.rtf">goldschnitt.rtf</a></div>
+  <div class="card"><div class="label">best.html — BEST-SCORE-SYSTEM OCTACORE-BEST</div><div class="desc">TMP=BEST?TMP LAGE=BEST?LAGE AXIS=BEST?AXIS PIPE=BEST?PIPE FORM=Octaeder/Score FREQ=4e/12e/6e/6d — BEST-STATIONEN ID RESPO LAGE SCAN 360° 6e ORT — CORE=iki1uc</div><a href="./best.html">best.html</a></div>
+  <div class="card"><div class="label">ID.md / by.md / m.md / alpha.BY.md / ram.lauf.ready / myth.js</div><div class="desc">ID = 81 Slots — MYTH — HUMANISTISCHE DEUTUNG — wo wächst der Pfeffer — 970 PRO MLC — H0ME ventral respo — mycoin — himmeldeutung</div><a href="./ID.md">ID.md</a> <a href="./by.md">by.md</a> <a href="./m.md">m.md</a> <a href="./alpha.BY.md">alpha.BY.md</a> <a href="./ram.lauf.ready">ram.lauf.ready</a> <a href="./myth.js">myth.js</a></div>
+</div>
+
+<div class="meta" style="margin-top:24px">Help people — index.html — bereitsein reicht — das ist toll — 3er Raum der bis 9er wachsen darf — kein Mysterium simples Singleton — reale Geometrie echte Mathematik — nur das rein alte weg — neue von heute erstmal weg aus Kernel — Kernel minimal — Regel 9 Raum immer 9 — 6 in 9 — Mono Eye</div>
+
+<script type="module">
+import { MODULES } from './axiom.map.js';
+import { kernel } from './OS_CORE.js';
+console.log('STATION v81 — 81◆ MODE:CACHE — MODULES', MODULES);
+console.log('kernel — OS_CORE — clock + state', kernel);
+kernel.clock.tick();
+console.log('clock tick — seconds', kernel.clock.seconds, 'deltaSec', kernel.clock.deltaSec);
+</script>
+</body>
+</html>
