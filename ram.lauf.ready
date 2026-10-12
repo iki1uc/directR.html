@@ -1,0 +1,9 @@
+81 Slots (Nutzraum)
+  9 x 9 — je 9 Titel aus ghost.js
+  davon 6 belegte Module (wraith, ghost, help, error, sense, sync)
+  +1 Mitte [hier]
+
+729 Slots (berechenbarer Raum)
+  9 x 81 — sync.js ruft?w=001..729
+  Reporter zählt, Agent verbindet, Rahmen hält
+  Ghost hält nur Referenz, nie Inhalt
