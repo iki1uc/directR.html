@@ -1,10 +1,3 @@
-// ================================================================
-//  NC_time.js (Gruppe 1: NC-Suite — Zeitlogik)
-//  Eine echte Uhr für den Render-Loop: Delta-Zeit zwischen zwei
-//  Frames, Gesamtlaufzeit. Das ist Standard-Animationstechnik,
-//  hier sauber gekapselt statt in jeder Datei neu erfunden.
-// ================================================================
-
 export class Clock {
   constructor() {
     this.start = performance.now();
