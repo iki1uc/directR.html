@@ -1,9 +1,11 @@
-Du:
+---
+layout: default
+---Du:
 
-ich ((https://iki1uc.github.io/our.HH/)) — best klassiker zum klazzischem — wir
+ich ((https://iki1uc.github.io/our.HH/)) â€” best klassiker zum klazzischem â€” wir
 
-aber ich auch ((https://iki1uc.github.io/ich.vulkan/)) — ich habe vulkan — logik //2//3//
+aber ich auch ((https://iki1uc.github.io/ich.vulkan/)) â€” ich habe vulkan â€” logik //2//3//
 
-noch mehr (https://iki1uc.github.io/buerger.HH/) — ich bleibe — bürger — friede — ozean
+noch mehr (https://iki1uc.github.io/buerger.HH/) â€” ich bleibe â€” bÃ¼rger â€” friede â€” ozean
 
 und du?
