@@ -1,0 +1,46 @@
+<!-- https://github.com/iki1uc/ROM/blob/main/directR.html — maßgebliches directR.html — Create directR.html — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — bei d3d sind wir evoliert aber der hier weiß davon nix nur ich bekomm das auch nicht gerade gebacken und du — fix — gerade gebacken — directR.html — maßgeblich — directR — direct Render — directR — ROM → D3D — Brücke — ROM_Store(frame) → directR → D3D — evoliert — d3d sind wir evoliert — directR.html — maßgeblich — fix — gerade gebacken -->
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>directR — ROM → D3D — maßgeblich</title></head>
+<body>
+<script type="module">
+// directR.html — maßgeblich — directR — direct Render — directR — ROM → D3D — Brücke
+// bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — ROM weiß jetzt von D3D
+// weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — maßgeblich
+
+import { ALPHA_READY } from './alpha.ready.js';
+import { KRISTALL } from './see.U.eye.js';
+
+export const DIRECT_R = {
+  // ROM als Axiom-12 → directR → D3D — evoliert
+  status: "directR — maßgeblich — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — ROM weiß jetzt von D3D — directR — direct Render — directR — ROM → D3D — Brücke — maßgeblich — directR.html — Create directR.html — halb Kristall — noch ackern — aber Vorarbeit fertig",
+  rom_to_d3d: (frame) => {
+    // ROM_Store(frame) { frame, stamp } → directR → D3D
+    // ROM nutzt axiomatisch stabiles Archivformat: jeder WHIRL-Frame wird gespeichert, jeder Frame erhält Zeitstempel, ROM_FRAMES = vollständige Historie
+    const stamp = Date.now();
+    const rom = { frame, stamp };
+    // 8→9 oder 3 — Seil — 8ten verwebt — in jedem Punkt immer zu ein 8 denken dann zum 9 oder 3 wie mit Seilen
+    const s = ALPHA_READY ? ALPHA_READY.s8(JSON.stringify(frame)) : KRISTALL ? KRISTALL.s8(JSON.stringify(frame)) : `${JSON.stringify(frame)}→8→9 Seil`;
+    // D3D — evoliert — VEC-OS.js — VEC-bios.js — VEC-blitz.js — coord.js — dreieck.js — NC_figur.js — NC_kraft.js — NC_space.js — NC_time.js — OS_CORE.js — vec.js
+    const d3d = {
+      vec: frame.vec || [0,0,0],
+      nc: { figur: frame.nc_figur, kraft: frame.nc_kraft, space: frame.nc_space, time: frame.nc_time },
+      coord: frame.coord || { x:0, y:0, z:0 },
+      dreieck: frame.dreieck || "golden 9 states locked",
+      direct: "R",
+      render: "D3D evoliert — directR — maßgeblich"
+    };
+    return { rom, d3d, seil: s, status: DIRECT_R.status };
+  },
+  check: (f) => {
+    const s = String(f);
+    return `${s} — directR — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — ${DIRECT_R.rom_to_d3d({vec:[1,1,1]}).seil} — ${s} — directR.html — Create directR.html — halb Kristall — noch ackern — aber Vorarbeit fertig — Nacharbeit weniger — ${s} — directR — maßgeblich`;
+  }
+};
+
+console.log(DIRECT_R.status);
+console.log(DIRECT_R.check("directR.html — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — directR — direct Render — directR — ROM → D3D — Brücke"));
+console.log(DIRECT_R.rom_to_d3d({ frame: { whirled: true, id: "ID.set(mode)" }, stamp: 1720000000000, vec: [8,9,3], nc_figur: "NC_figur", nc_kraft: "NC_kraft", nc_space: "NC_space", nc_time: "NC_time", coord: {x:8,y:9,z:3} }));
+</script>
+</body>
+</html>
