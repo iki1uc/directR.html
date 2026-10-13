@@ -1,46 +1,25 @@
-<!-- https://github.com/iki1uc/ROM/blob/main/directR.html — maßgebliches directR.html — Create directR.html — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — bei d3d sind wir evoliert aber der hier weiß davon nix nur ich bekomm das auch nicht gerade gebacken und du — fix — gerade gebacken — directR.html — maßgeblich — directR — direct Render — directR — ROM → D3D — Brücke — ROM_Store(frame) → directR → D3D — evoliert — d3d sind wir evoliert — directR.html — maßgeblich — fix — gerade gebacken -->
-<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>directR — ROM → D3D — maßgeblich</title></head>
-<body>
-<script type="module">
-// directR.html — maßgeblich — directR — direct Render — directR — ROM → D3D — Brücke
-// bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — ROM weiß jetzt von D3D
-// weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — maßgeblich
+// fix.sync — Create fix.sync — now — e2ea5d8 · now — fix.sync — fix.sync — directR.html Public Go to file t T iki1uc iki1uc Create fix.sync e2ea5d8 · now — Name — ID.md — LICENSE.md — NC_figur.js — NC_kraft.js — NC_space.js — NC_time.js — OS_CORE.js — VEC-OS.js — VEC-bios.js — VEC-blitz.js — agp.rtf — alpha.BY.md — axiom.map.js — best.html — by.md — coord.js — cube.txt — directR.html — dreieck.js — fix.sync — goldschnitt.rtf — m.md — myth.js — ram.lauf.ready — resolver.js — respo.js — rie.html — router.js — toolomatv2.rtf — vec.js — Repository files navigation — README — License — Add a README — Help people — fix.sync — fix.sync — fix.sync — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — maßgeblich — fix.sync — fix.sync — fix.sync — fix.sync — fix.sync
 
-import { ALPHA_READY } from './alpha.ready.js';
-import { KRISTALL } from './see.U.eye.js';
-
-export const DIRECT_R = {
-  // ROM als Axiom-12 → directR → D3D — evoliert
-  status: "directR — maßgeblich — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — ROM weiß jetzt von D3D — directR — direct Render — directR — ROM → D3D — Brücke — maßgeblich — directR.html — Create directR.html — halb Kristall — noch ackern — aber Vorarbeit fertig",
-  rom_to_d3d: (frame) => {
-    // ROM_Store(frame) { frame, stamp } → directR → D3D
-    // ROM nutzt axiomatisch stabiles Archivformat: jeder WHIRL-Frame wird gespeichert, jeder Frame erhält Zeitstempel, ROM_FRAMES = vollständige Historie
-    const stamp = Date.now();
-    const rom = { frame, stamp };
-    // 8→9 oder 3 — Seil — 8ten verwebt — in jedem Punkt immer zu ein 8 denken dann zum 9 oder 3 wie mit Seilen
-    const s = ALPHA_READY ? ALPHA_READY.s8(JSON.stringify(frame)) : KRISTALL ? KRISTALL.s8(JSON.stringify(frame)) : `${JSON.stringify(frame)}→8→9 Seil`;
-    // D3D — evoliert — VEC-OS.js — VEC-bios.js — VEC-blitz.js — coord.js — dreieck.js — NC_figur.js — NC_kraft.js — NC_space.js — NC_time.js — OS_CORE.js — vec.js
-    const d3d = {
-      vec: frame.vec || [0,0,0],
-      nc: { figur: frame.nc_figur, kraft: frame.nc_kraft, space: frame.nc_space, time: frame.nc_time },
-      coord: frame.coord || { x:0, y:0, z:0 },
-      dreieck: frame.dreieck || "golden 9 states locked",
-      direct: "R",
-      render: "D3D evoliert — directR — maßgeblich"
-    };
-    return { rom, d3d, seil: s, status: DIRECT_R.status };
+export const FIX_SYNC = {
+  // fix.sync — Create fix.sync — now — e2ea5d8 · now — fix.sync — fix.sync — fix.sync — directR.html — maßgeblich — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — maßgeblich — fix.sync — fix.sync
+  file: "fix.sync — e2ea5d8 — now — fix.sync — Create fix.sync — now — e2ea5d8 · now — fix.sync — fix.sync — fix.sync — directR.html — maßgeblich — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken",
+  sync: {
+    rom: "IKI1UC · ROM — Axiom-12 — ROM_Store(frame) — ROM_FRAMES — Endlager — stabil nicht-volatil deterministisch final archivierend systemtragend — RAM CPU GPU — Power — EVO — ID-System WHIRL-Core Pipeline PQ RESPO NC TMP — index.html zeigt alle live",
+    d3d: "VEC-OS.js — VEC-bios.js — VEC-blitz.js — vec.js — coord.js — dreieck.js golden 9 states locked — NC_figur.js NC_kraft.js NC_space.js NC_time.js — OS_CORE.js — axiom.map.js — resolver.js — router.js — ram.lauf.ready slot definitions — D3D evoliert",
+    bridge: "directR.html — directR — direct Render — directR — ROM → D3D — Brücke — ROM_Store(frame) → directR → D3D — maßgeblich — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken",
+    fix: "fix.sync — Create fix.sync — now — e2ea5d8 · now — fix.sync — fix.sync — fix.sync — Sync — Fix — ROM und D3D syncen — ROM weiß jetzt von D3D — D3D weiß von ROM — fix.sync — maßgeblich — fix.sync"
   },
+  status: "fix.sync — Create fix.sync — now — e2ea5d8 · now — fix.sync — fix.sync — fix.sync — bei d3d sind wir evoliert aber der hier weiß davon nix — fix — gerade gebacken — weil alles toll aber wenn alles richtig war hat sich bei dem was geändert maßgebliches directR.html — directR.html — maßgeblich — fix.sync — fix.sync — halb Kristall — noch ackern — aber Vorarbeit fertig — Nacharbeit weniger — Roederer Kristall fast — fix.sync",
   check: (f) => {
     const s = String(f);
-    return `${s} — directR — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — ${DIRECT_R.rom_to_d3d({vec:[1,1,1]}).seil} — ${s} — directR.html — Create directR.html — halb Kristall — noch ackern — aber Vorarbeit fertig — Nacharbeit weniger — ${s} — directR — maßgeblich`;
+    return `${s} — fix.sync — e2ea5d8 — now — fix.sync — Create fix.sync — now — ${s} — directR.html — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — D3D evoliert — fix.sync — Sync — Fix — ROM → D3D — ${s} — fix.sync — halb Kristall — noch ackern — aber Vorarbeit fertig — Nacharbeit weniger — ${s} — fix.sync`;
   }
 };
 
-console.log(DIRECT_R.status);
-console.log(DIRECT_R.check("directR.html — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — directR — direct Render — directR — ROM → D3D — Brücke"));
-console.log(DIRECT_R.rom_to_d3d({ frame: { whirled: true, id: "ID.set(mode)" }, stamp: 1720000000000, vec: [8,9,3], nc_figur: "NC_figur", nc_kraft: "NC_kraft", nc_space: "NC_space", nc_time: "NC_time", coord: {x:8,y:9,z:3} }));
-</script>
-</body>
-</html>
+console.log(FIX_SYNC.file);
+console.log(FIX_SYNC.sync.rom);
+console.log(FIX_SYNC.sync.d3d);
+console.log(FIX_SYNC.sync.bridge);
+console.log(FIX_SYNC.sync.fix);
+console.log(FIX_SYNC.status);
+console.log(FIX_SYNC.check("directR.html — maßgeblich — bei d3d sind wir evoliert — ROM weiß jetzt — D3D evoliert — fix.sync — Sync — Fix — ROM → D3D — directR.html — maßgeblich — fix.sync — fix.sync"));
